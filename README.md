@@ -24,7 +24,7 @@ To install the package "Equitable", first install the package devtools. Then in 
 
 
 
-Some suporting files are found here: https://github.com/celphin/Equitable-Project
+Some suporting files are found here: https://github.com/celphin/Equitable-Project 
 
 celphin/Equitable-Project/Equitable_Manual.pdf is a pdf containing a manual of the basic functions used for constructing an equitable transform from a 2 dimensional data set. 
 For each function, examples are given to illustrate the use of the function.
