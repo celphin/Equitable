@@ -1,4 +1,4 @@
-# Equitable Package  related to the Equitable Transform.
+# Equitable Package to run an equitable transform on two dimensional data sets
 
 Elphinstone, C. and Henry, G. (submitted to Ecosphere, 2019) show the multipurpose uses for the equitable transform. Functions useful 
 for analysing two dimensional data sets are included in this package. A two dimensional data set (d) is transformed via Td<-transformE(d) 
