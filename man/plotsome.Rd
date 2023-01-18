@@ -4,12 +4,33 @@
 \alias{plotsome}
 \title{Various types of plots of Equitable transform data dependent on options chosen}
 \usage{
-plotsome(T, num = 5, signal = NULL, limits = NULL, xlimits = NULL,
-  indiv = FALSE, columns = FALSE, images = TRUE, density = FALSE,
-  versus = FALSE, xvsref = NULL, yline = 3, yma = 5,
-  transpose = FALSE, of = FALSE, lf = FALSE, ef = TRUE,
-  avef = FALSE, errb = FALSE, row_unit = NULL, col_unit = NULL,
-  z_unit = NULL, genname = NULL, stderror = FALSE, fcontour = TRUE)
+plotsome(
+  T,
+  num = 5,
+  signal = NULL,
+  limits = NULL,
+  xlimits = NULL,
+  indiv = FALSE,
+  columns = FALSE,
+  images = TRUE,
+  density = FALSE,
+  versus = FALSE,
+  xvsref = NULL,
+  yline = 3,
+  yma = 5,
+  transpose = FALSE,
+  of = FALSE,
+  lf = FALSE,
+  ef = TRUE,
+  avef = FALSE,
+  errb = FALSE,
+  row_unit = NULL,
+  col_unit = NULL,
+  z_unit = NULL,
+  genname = NULL,
+  stderror = FALSE,
+  fcontour = TRUE
+)
 }
 \arguments{
 \item{T}{equitable transform info: output from transformE}

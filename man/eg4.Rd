@@ -7,7 +7,7 @@ f(x) product of sqrt of column index and very large scale wave:
 u(x) linear in column index
 g(x) sum of two  waves}
 \usage{
-eg4(rmult = 1, cmult = 1)
+eg4(rmult, cmult)
 }
 \arguments{
 \item{rmult}{resolution of sampling of t variable  rmult*15 is the number of points sampled}

@@ -7,7 +7,7 @@ f(x) product of sqrt of column index and short wavelength wave:
 u(x) sum of linear in column index with short wavelength
 g(x) sum of two  waves}
 \usage{
-eg5(rmult = 1, cmult = 1)
+eg5(rmult, cmult)
 }
 \arguments{
 \item{rmult}{resolution of sampling of t variable  rmult*15 is the number of points sampled}

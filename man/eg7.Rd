@@ -7,7 +7,7 @@ f(x) Absolute value of linear function in column index
 u(x) 0
 g(x) step function in row index}
 \usage{
-eg7(rmult = 1, cmult = 1)
+eg7(rmult, cmult)
 }
 \arguments{
 \item{rmult}{resolution of sampling of t variable  rmult*15 is the number of points sampled}

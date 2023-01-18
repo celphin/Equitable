@@ -4,7 +4,7 @@
 \alias{make_B}
 \title{Construct Shift equitable matrix}
 \usage{
-make_B(xref = 1, orig, A, uflag = FALSE, pflag = TRUE)
+make_B(xref, orig, A, uflag = FALSE)
 }
 \arguments{
 \item{xref}{Reference "location" to base shift matrix default set to 1 (for PCA dominant is first)}

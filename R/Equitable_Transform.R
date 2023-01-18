@@ -1,29 +1,29 @@
-# library package installation notes
-install.packages("devtools")
-install.packages("roxygen2")
-install.packages("remotes")
-install.packages("Hmisc")
-
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-
-BiocManager::install("pcaMethods")
-
-install.packages("mclust")
-install.packages("FactoMineR")
-install.packages("factoextra")
-install.packages("Matrix")
-install.packages("aplpack")
-
-#--------------------------------
-#libaries
-library(Hmisc)
-library(pcaMethods)
-library(mclust)
-library(FactoMineR) #coloring for pca
-library(factoextra) #scree plots
-library(Matrix)   #for sparse matrix multiplication etc
-library(aplpack)   #for bagplot
+# # library package installation notes
+# install.packages("devtools")
+# install.packages("roxygen2")
+# install.packages("remotes")
+# install.packages("Hmisc")
+# 
+# if (!require("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# 
+# BiocManager::install("pcaMethods")
+# 
+# install.packages("mclust")
+# install.packages("FactoMineR")
+# install.packages("factoextra")
+# install.packages("Matrix")
+# install.packages("aplpack")
+# 
+# #--------------------------------
+# #libaries
+# library(Hmisc)
+# library(pcaMethods)
+# library(mclust)
+# library(FactoMineR) #coloring for pca
+# library(factoextra) #scree plots
+# library(Matrix)   #for sparse matrix multiplication etc
+# library(aplpack)   #for bagplot
 
 #-------------------------------
 #functions

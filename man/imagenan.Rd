@@ -4,9 +4,27 @@
 \alias{imagenan}
 \title{Plots False Colour Image}
 \usage{
-imagenan(x, yline = 3, yma = 5, col = topo.colors(255),
-  outside.below.color = "black", outside.above.color = "white",
-  na.color = "gray", ...)
+imagenan(
+  x,
+  yline = 3,
+  yma = 5,
+  topyma = 4,
+  xline = 3,
+  xma = 6,
+  lnumr = 10,
+  lnumc = 10,
+  lasval = 1,
+  cex.axis = 0.7,
+  cex.lab = 0.7,
+  cex.main = 0.7,
+  widths = c(5, 1.25),
+  heights = c(1, 0.5),
+  col = topo.colors(255),
+  outside.below.color = "black",
+  outside.above.color = "white",
+  na.color = "grey28",
+  ...
+)
 }
 \arguments{
 \item{x}{2D data to display}

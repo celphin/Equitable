@@ -4,8 +4,16 @@
 \alias{transformE}
 \title{Equitable transform}
 \usage{
-transformE(d, Ave = TRUE, cAve = FALSE, Zero = FALSE, zero = NULL,
-  diagonal = TRUE, imageplot = FALSE, old = NULL)
+transformE(
+  d,
+  Ave = TRUE,
+  cAve = FALSE,
+  Zero = FALSE,
+  zero = NULL,
+  diagonal = TRUE,
+  imageplot = FALSE,
+  old = NULL
+)
 }
 \arguments{
 \item{d}{2D data to be transformed}

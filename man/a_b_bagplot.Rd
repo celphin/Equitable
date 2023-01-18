@@ -4,9 +4,17 @@
 \alias{a_b_bagplot}
 \title{Creates bagplots of equitable intercepts versus 1-slope}
 \usage{
-a_b_bagplot(community.f = NULL, Td, refindex = "Row_Ave",
-  xlim = NULL, ylim = NULL, main = " ", rownum = NULL,
-  facname = NULL, fall = FALSE)
+a_b_bagplot(
+  community.f = NULL,
+  Td,
+  refindex = "Row_Ave",
+  xlim = NULL,
+  ylim = NULL,
+  main = " ",
+  rownum = NULL,
+  facname = NULL,
+  fall = FALSE
+)
 }
 \arguments{
 \item{community.f}{nonnumeric character traits of the individuals in x: default NULL}

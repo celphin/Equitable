@@ -4,8 +4,19 @@
 \alias{eg8}
 \title{Example 8 of equitable system}
 \usage{
-eg8(rmult = 1, cmult = 1, mf = 10, mg = 0, mu = 10, sdf = 0.75,
-  sdg = 1, sdu = 0.2)
+eg8(
+  rmult,
+  cmult,
+  mf = 5,
+  mg = 1,
+  mu = 5,
+  sdf = 2,
+  sdg = 1,
+  sdu = 3,
+  seedf = FALSE,
+  seedg = TRUE,
+  seedu = FALSE
+)
 }
 \arguments{
 \item{rmult}{resolution of sampling of t variable  rmult*15 is the number of points sampled}

@@ -4,10 +4,23 @@
 \alias{plotsummary}
 \title{Summary plots of transforms}
 \usage{
-plotsummary(Td_noise, Td = NULL, Td_old = NULL, row_unit = NULL,
-  col_unit = NULL, z_unit = NULL, yline = 3, yma = 5,
-  fintersect = FALSE, fsquares = FALSE, fave = FALSE, fall = FALSE,
-  inc = NULL)
+plotsummary(
+  Td_noise,
+  Td = NULL,
+  Td_old = NULL,
+  row_unit = NULL,
+  col_unit = NULL,
+  z_unit = NULL,
+  yline = 3,
+  yma = 5,
+  fintersect = FALSE,
+  fsquares = FALSE,
+  fpca = TRUE,
+  fave = FALSE,
+  fall = FALSE,
+  inc = NULL,
+  plim = NULL
+)
 }
 \arguments{
 \item{Td_noise}{Output from the transform function transformE fro the data to be studied}

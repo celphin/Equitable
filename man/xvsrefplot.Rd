@@ -4,8 +4,17 @@
 \alias{xvsrefplot}
 \title{Plots individual sequences against a reference sequence}
 \usage{
-xvsrefplot(Td, cgroup = NULL, ylim = NULL, ref = NULL, br = "",
-  pf = TRUE, extranames = NULL, err95 = TRUE, fitl = TRUE)
+xvsrefplot(
+  Td,
+  cgroup = NULL,
+  ylim = NULL,
+  ref = NULL,
+  br = "",
+  pf = TRUE,
+  extranames = NULL,
+  err95 = TRUE,
+  fitl = TRUE
+)
 }
 \arguments{
 \item{Td}{transform information from transformE}

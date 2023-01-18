@@ -4,7 +4,7 @@
 \alias{runstatsNS}
 \title{mean and std dev of transform differenced with the signal data set}
 \usage{
-runstatsNS(Tx, T_noise, extraf = FALSE)
+runstatsNS(Tx, T_noise)
 }
 \arguments{
 \item{Tx}{signal transform information from transformE}

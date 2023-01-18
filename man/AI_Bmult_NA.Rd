@@ -48,7 +48,7 @@ u<-Td$E.b[,1]
 I<-Td$smat;I[]<-NA; I[,"Row_Ave"]<-Td$smat[,"Row_Ave"]
 # the 3 necessary components are made so show what they look like and then construct system
 plot(f,type="b",main="f(x) profile used for Equitable matrix A")
-plot(u,type="b",main="u(x) profile used with matrix A\\nto make  for shift matrix B")
+plot(u,type="b",main="u(x) profile used with matrix A\nto make  for shift matrix B")
 plot(I[, "Row_Ave"],type="b",,main="Average profile used for reconstruction")
 imagenan(I,main="Only the average profile is defined")
 A<-make_A(f=f)
@@ -119,7 +119,7 @@ imagenan(TI$xme,
 main=paste("Data set reconstructed from random points",
  "(from eg4 with noise) on x as function of t" ))
 imagenan(TI$xsd,
-main=paste("Std Dev in reconstruction from random points\\n",
+main=paste("Std Dev in reconstruction from random points\n",
 " (from eg4 with noise) on x as function of t" ))
 #error values show where the system was not equitable
 
