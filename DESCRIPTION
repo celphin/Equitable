@@ -1,7 +1,7 @@
 Package: Equitable
 Type: Package
 Title: Equitable Transform
-Version: 0.1.0
+Version: 0.2.0
 Author: C. Elphinstone, R. D. Elphinstone
 Maintainer: C. Elphinstone <cassandra.elphinstone@shaw.ca>
 Description: A method of scaling to maintain individuality
@@ -13,11 +13,12 @@ LazyData: true
 RoxygenNote: 6.1.1
 Imports: 
     Hmisc,
-    SDMTools,
-    aplpack,
-    stats,
-    graphics,
-    grDevices
+    pcaMethods,
+    mclust,
+    FactoMineR,
+    factoextra,
+    Matrix,
+	aplpack
 Suggests: 
     knitr,
     rmarkdown
